@@ -1,0 +1,3 @@
+
+Hoovlet allows you to record content-rich bookmarks with the click of a button - and allows you to graph your usage in seconds.
+Hoovlet uses http://www.loggly.com to record bookmarks and analyze them (through a combination of HTML, Javascript, Python, and JSON).
