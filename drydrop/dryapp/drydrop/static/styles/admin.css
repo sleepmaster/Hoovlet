@@ -1,0 +1,210 @@
+#admin {
+    text-align: left;
+}
+
+#doc4 {
+    margin-left: 0;
+}
+
+#hd {
+    margin-bottom: 20px;
+}
+
+#userinfo {
+    text-align: right;
+    white-space: nowrap;
+}
+
+#userinfo ul {
+    padding: 0 0 1em 1.2em;
+    float: right;
+}
+
+#userinfo li {
+    display: inline;
+    line-height:1.5em;
+    padding:0 0 0.5em;    
+}
+
+#appbar {
+    background-color: #E5ECF9;
+    border-top: 1px solid #3366CC;
+    margin: 0 0 1.25em;
+    padding: 0.35em 0.5em;
+    font-weight: bold;
+    padding-left: 4px;
+    font-size: 120%;
+}
+
+#appbar .sitename {
+}
+
+#nav {
+    border-right:3px solid #E5ECF9;
+}
+
+#nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:1em 0;    
+}
+
+#nav li {
+    padding:0 0 0.5em;
+    padding-left: 0.5em;
+}
+
+#nav li a {
+    padding-left: 0.5em;
+}
+
+.index #nav-index a,
+.cache #nav-cache a,
+.config #nav-config a,
+.domains #nav-domains a,
+.settings #nav-settings a
+{
+    -moz-border-radius-bottomleft:4px;
+    -moz-border-radius-topleft:4px;
+    background-color:#E5ECF9;
+    display:block;
+    font-weight:bold;
+    margin-right:-1px;
+}
+
+.has_error #appbar {
+    display:none;
+}
+
+.has_error #yui-main {
+    display:none;
+}
+
+.highlight {
+    margin-left: 10px;
+}
+
+#flushing-console {
+    width: 100%;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+#events-list {
+    padding-left: 8px;
+}
+
+#events-list table {
+    width: 100%;
+}
+
+#events-list table td {
+    padding: 6px 4px 2px 4px;
+}
+
+#events-list tr.second td {
+    padding: 0px 4px;
+}
+
+#events-list tr.second {
+    border-bottom: 1px solid #eee;
+}
+
+#events-list table .date {
+    white-space: nowrap;
+    color: #999;
+    text-align: right;
+}
+
+#events-list table .author {
+    color: #2362A5;
+    width: 100%;
+    font-weight: bold;
+}
+
+#events-list table .action {
+    width: 100%;
+}
+
+#events-paginator {
+    text-align: right;
+}
+
+.form-section button {
+    float: right;
+    font-size: 12px;
+}
+
+.form-section .help-button {
+    font-size: 11px;
+    color: #00c;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.form-section .help-button:hover {
+    color: #00f;
+}
+
+.form-section .help-text {
+    display: none;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+    padding: 4px;
+    padding-left: 10px;
+    border-left: 3px solid #2ACD67;
+}
+
+.form-section .help-text code {
+    font-weight: bold;
+}
+
+.form-section .help-text p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.form-section .help-text code i {
+    font-style: normal;
+    color: #909;
+}
+
+.form-section .help-text img {
+    margin: 6px;
+}
+
+.form-section span i {
+    font-style: normal;
+    color: #666;
+    font-size: 14px;
+}
+
+.highlight {
+    font-size: 11px;
+}
+
+.cache-box {
+    line-height: 6px;
+    font-size: 11px;
+}
+
+#events-paginator .disabled {
+    color: #999;
+    text-decoration: none;
+    cursor: default;
+}
+
+.info-box {
+    display: none;
+    margin-left: 20px;
+    margin-top: 4px;
+    border-top: 1px dashed #eee;
+}
+
+.more-button {
+    font-weight: bold;
+    cursor: pointer;
+    color: #00c;
+    margin-left: 6px;
+}

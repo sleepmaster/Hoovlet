@@ -1,0 +1,8 @@
+application: drydrop
+version: master
+runtime: python
+api_version: 1
+
+handlers:
+- url: .*
+  script: 'drydrop_handler.py'

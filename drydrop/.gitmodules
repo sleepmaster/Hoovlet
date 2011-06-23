@@ -1,0 +1,3 @@
+[submodule "dryapp/firepython"]
+	path = dryapp/firepython
+	url = git://github.com/darwin/firepython.git
