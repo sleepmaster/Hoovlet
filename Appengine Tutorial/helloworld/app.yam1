@@ -6,3 +6,5 @@ api_version: 1
 handlers:
 - url: /.*
  script: helloworld.py
+- url: /index.html
+ script: hoov_call.py
