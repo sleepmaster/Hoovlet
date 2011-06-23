@@ -1,3 +1,5 @@
 
 Hoovlet allows you to record content-rich bookmarks with the click of a button - and allows you to graph your usage in seconds.
 Hoovlet uses http://www.loggly.com to record bookmarks and analyze them (through a combination of HTML, Javascript, Python, and JSON).
+
+At the moment we're using a google app engine template to test pushing to app engine automatically.  The idea is to push to this github account and update Hoovlet as soon as we push.  This next commit should get us a hello world app of somesort.
